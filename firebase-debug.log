@@ -1,0 +1,28 @@
+[debug] [2017-12-04T03:01:13.130Z] ----------------------------------------------------------------------
+[debug] [2017-12-04T03:01:13.132Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cecilia\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-12-04T03:01:13.132Z] CLI Version:   3.15.4
+[debug] [2017-12-04T03:01:13.132Z] Platform:      win32
+[debug] [2017-12-04T03:01:13.132Z] Node Version:  v8.9.0
+[debug] [2017-12-04T03:01:13.133Z] Time:          Sun Dec 03 2017 22:01:13 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-04T03:01:13.133Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-04T03:01:13.146Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-04T03:01:13.147Z] > authorizing via signed-in user
+[debug] [2017-12-04T03:01:13.149Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fir-demo-1536c  
+ Sun Dec 03 2017 22:01:13 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-04T03:01:13.485Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-04T03:01:13.486Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fir-demo-1536c/tokens  
+ Sun Dec 03 2017 22:01:13 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-04T03:01:13.858Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Cecilia\Dropbox\Fall 2017\CSE 682 Software Engineering\firebasedemo'...
+[info] 
+[debug] [2017-12-04T03:01:13.865Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fir-demo-1536c  
+ Sun Dec 03 2017 22:01:13 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-04T03:01:14.176Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-04T03:01:14.178Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/31251772438/clients/_:getWebAppConfig  
+ Sun Dec 03 2017 22:01:14 GMT-0500 (Eastern Standard Time)
+[debug] [2017-12-04T03:01:14.731Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
